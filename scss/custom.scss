@@ -1,0 +1,247 @@
+.body-principal{
+height: 1706px;
+background-color:#000000;
+}
+
+.logo-header{
+width: 60%;
+max-width: 200px;
+}
+
+.carta-principal{
+height:1300px;
+background-image: url(../assets/img/fondo-carta.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-size:cover;
+border-radius:40px 40px 0px 0px;
+margin-top: 406px;
+
+-webkit-box-shadow: 0px -15px 50px 0px #000000; 
+box-shadow: 0px -15px 50px 0px #000000;
+}
+
+.imagen-carrusel{
+    width: 100%;
+}
+
+.las-comidas{
+font-weight: 700;
+font-size: 1.8em;
+}
+
+.mas-ricas{
+font-weight: 800;
+font-size: 2em;
+}
+
+.de-porvenir{
+font-weight: 700;
+font-size: 1.8em;
+}
+
+.icono-down{
+color: #ffffff;
+text-decoration: none;
+}
+
+.categoría-comidas{
+display: grid;
+width: 90%;
+height: auto;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+gap: 1rem;
+grid-template-areas: 'bano-maria bano-maria'
+                    'menu-parrilla picoteo'
+                    'sandwichs picoteo'
+                    'sandwichs en-vitrina'
+                    'acompanamientos acompanamientos';
+                    
+}
+
+.bano-maria{
+grid-area: bano-maria;
+border-radius: 1rem;
+color: white;
+padding: 1rem;
+background-image: url(../assets/img/bano-maria-sombra.jpg);
+background-position:center;
+background-size: cover;
+text-decoration: none;
+}
+
+.menu-parrilla{
+grid-area: menu-parrilla;
+border-radius: 1rem;
+color: white;
+padding: 1rem;
+background-image: url(../assets/img/menu-parrilla-sombra.jpg);
+background-position:center;
+background-size: cover;
+text-decoration: none;
+}
+
+.picoteo{
+grid-area: picoteo;
+border-radius: 1rem;
+color: white;
+padding: 1rem;
+background-image: url(../assets/img/picoteos-sombra.jpg);
+background-position:center;
+background-size: cover;
+text-decoration: none;
+}
+
+.sandwichs{
+grid-area: sandwichs;
+border-radius: 1rem;
+color: white;
+padding: 1rem;
+background-image: url(../assets/img/sandwichs2-sombra.jpg);
+background-position:center;
+background-size: cover;
+text-decoration: none;
+}
+
+.en-vitrina{
+grid-area: en-vitrina;
+border-radius: 1rem;
+color: white;
+padding: 1rem;
+background-image: url(../assets/img/en-vitrina2-sombra.jpg);
+background-position:center;
+background-size: cover;
+text-decoration: none;
+}
+
+.acompanamientos{
+grid-area: acompanamientos;
+border-radius: 1rem;
+color: white;
+padding: 1rem;
+background-image: url(../assets/img/acompanamientos-sombra.jpg);
+background-position:center;
+background-size: cover;
+text-decoration: none;
+}
+
+.bano-maria h3{
+font-weight: 700;
+font-size: 1.2rem;
+}
+
+.bano-maria p{
+font-weight: 100;
+}
+
+.menu-parrilla h3{
+font-weight: 700;
+font-size: 1.2rem;
+}
+    
+.menu-parrilla p{
+font-weight: 100;
+}
+
+.picoteo h3{
+font-weight: 700;
+font-size: 1.2rem;
+}
+
+.picoteo p{
+font-weight: 100;
+}
+
+.sandwichs h3{
+    font-weight: 700; 
+    font-size: 1.2rem;  
+}
+
+.sandwichs p{
+    font-weight: 100;
+}
+
+.en-vitrina h3{
+    font-weight: 700; 
+    font-size: 1.2rem; 
+}
+
+.en-vitrina p{
+    font-weight: 100;   
+}
+
+.acompanamientos h3{
+    font-weight: 700; 
+    font-size: 1.2rem;
+}
+
+.acompanamientos p{
+    font-weight: 100;
+}
+
+.bano-maria-principal{
+    background-image: url(../assets/img/fondo-carta.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-size:cover;
+}
+
+li{
+list-style: square;
+font-size: 1.2rem;
+font-weight: 400;
+padding: .5rem;
+}
+
+.volver-al-menu{
+text-decoration: none;
+font-size: 1.2rem;
+font-weight: 600;
+}
+
+.realizar-pedido{
+text-decoration: none;
+font-size: 1.2rem;
+font-weight: 600;
+}
+
+.horario-atencion{
+font-size: 1.2rem;
+font-weight: 600;
+}
+
+.desarrollado-por{
+text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+$font-family-base: 'Syne', sans-serif;
+
+@media (max-width: 400px){
+    .imagen-carrusel{
+        width: 900px;
+        }
+    .body-principal{
+        height: 1756px;
+        background-color:#000000;
+        }
+    .carta-principal{
+        height:1520px;
+        background-image: url(../assets/img/fondo-carta.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size:cover;
+        border-radius:40px 40px 0px 0px;
+        margin-top: 406px;
+        
+        -webkit-box-shadow: 0px -15px 50px 0px #000000; 
+        box-shadow: 0px -15px 50px 0px #000000;
+        }
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
