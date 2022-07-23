@@ -220,12 +220,14 @@ text-decoration: none;
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 $font-family-base: 'Syne', sans-serif;
 
+$primary: #ffffff;
+
 @media (max-width: 400px){
     .imagen-carrusel{
         width: 900px;
         }
     .body-principal{
-        height: 1756px;
+        height: 1840px;
         background-color:#000000;
         }
     .carta-principal{
@@ -236,7 +238,7 @@ $font-family-base: 'Syne', sans-serif;
         background-attachment:fixed;
         background-size:cover;
         border-radius:40px 40px 0px 0px;
-        margin-top: 406px;
+        margin-top: 320px;
         
         -webkit-box-shadow: 0px -15px 50px 0px #000000; 
         box-shadow: 0px -15px 50px 0px #000000;
