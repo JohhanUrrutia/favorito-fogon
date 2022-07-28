@@ -15,7 +15,6 @@ background-position: center;
 background-repeat: no-repeat;
 background-attachment:fixed;
 background-size:cover;
-border-radius:40px 40px 0px 0px;
 margin-top: 406px;
 
 -webkit-box-shadow: 0px -15px 50px 0px #000000; 
@@ -48,8 +47,8 @@ text-decoration: none;
 
 .categoría-comidas{
 display: grid;
-width: 90%;
 height: auto;
+width: 40%;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 gap: 1rem;
@@ -206,6 +205,7 @@ font-weight: 600;
 text-decoration: none;
 font-size: 1.2rem;
 font-weight: 600;
+width: 40%;
 }
 
 .horario-atencion{
@@ -232,17 +232,37 @@ $primary: #ffffff;
         }
     .carta-principal{
         height:1520px;
+        border-radius:0px 0px 0px 0px;
+        margin-top: 320px;
         background-image: url(../assets/img/fondo-carta.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-attachment:fixed;
         background-size:cover;
-        border-radius:40px 40px 0px 0px;
-        margin-top: 320px;
         
         -webkit-box-shadow: 0px -15px 50px 0px #000000; 
         box-shadow: 0px -15px 50px 0px #000000;
         }
+        .categoría-comidas{
+            display: grid;
+            width: 90%;
+            height: auto;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            gap: 1rem;
+            grid-template-areas: 'bano-maria bano-maria'
+                                'menu-parrilla picoteo'
+                                'sandwichs picoteo'
+                                'sandwichs en-vitrina'
+                                'acompanamientos acompanamientos';
+                                
+            }
+        .realizar-pedido{
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+            width: 100%;
+            }
 }
 
 
